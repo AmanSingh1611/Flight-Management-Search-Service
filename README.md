@@ -28,9 +28,27 @@ and then execute
 
 ## DB Design
   - Airplane Table
+    -Id
+    -model_number
+    -capacity
+    -created_at
+    -updated_at
   - Flight
+    -id
+    -src_airport_id
+    -dest_airport_id
+    -departure_date
+    -arrival_date
+    -arrival_time
+    -departure_time
   - Airport
+    -id
+    -name
+    -city_id
+    -address
   - City 
+    -id
+    -name
 
   - A flight belongs to an airplane but one airplane can be used in multiple flights
   - A city has many airports but one airport belongs to a city
