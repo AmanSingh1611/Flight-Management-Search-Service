@@ -1,4 +1,10 @@
 # Welcome to Flights Service
+This a backend system that supports different features for an airline company. Our end user is going to be someone who wants to book flights and query about flights this project features a robust system to help them give the best possible experience. I have prepared the whole backend keeping the code base as maintainable as possible.
+
+# High Level Design 
+
+![Flight Management System HLD (1)](https://github.com/AmanSingh1611/Airline-Backend-System/assets/78806052/f4b1433f-054f-410e-b8ec-c418d0bb4a24)
+
 
 ## Project Setup
 - clone the project on your local
@@ -19,48 +25,52 @@
 }
 
 ```
+
 - Once you've added your db config as listed above, go to the src folder from your terminal and execute `npx sequelize db:create`
 and then execute
 
-`npx sequelize db:migrate`
+```
+- `npx sequelize db:migrate`
 ```
 
-
-## DB Design
+# DB Design
   - Airplane Table
-    -Id
-    -model_number
-    -capacity
-    -created_at
-    -updated_at
+    - Id
+    - model_number
+    - capacity
+    - created_at
+    - updated_at
   - Flight
-    -id
-    -src_airport_id
-    -dest_airport_id
-    -departure_date
-    -arrival_date
-    -arrival_time
-    -departure_time
+    - id
+    - src_airport_id
+    - dest_airport_id
+    - departure_date
+    - arrival_date
+    - arrival_time
+    - departure_time
   - Airport
-    -id
-    -name
-    -city_id
-    -address
+    - id
+    - name
+    - city_id
+    - address
   - City 
-    -id
-    -name
+    - id
+    - name
 
   - A flight belongs to an airplane but one airplane can be used in multiple flights
   - A city has many airports but one airport belongs to a city
   - One airport can have many flights, but a flight belongs to one airport
 
 
-  
-## Tables
 
-### City -> id, name, created_at, updated_at
-### Airport -> id, name, address, city_id, created_at, updated_at
-    Relationship -> City has many airports and Airport belongs to a city (one to many)
+# Tables
+
+- City -> id, name, created_at, updated_at
+- Airport -> id, name, address, city_id, created_at, updated_at
+    - Relationship -> City has many airports and Airport belongs to a city (one to many)
+
+
 ```
 npx sequelize model:generate --name Airport --attributes name:String,address:String,cityId:integer
+
 ```
