@@ -1,5 +1,5 @@
 {
-  "name": "flightbookingproject",
+  "name": "flight-search-service",
   "version": "1.0.0",
   "description": "Microservice for handelling Flight CRUD",
   "main": "index.js",
