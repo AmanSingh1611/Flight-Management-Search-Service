@@ -12,22 +12,23 @@ module.exports = {
      *   isBetaMember: false
      * }], {});
     */
-
-    await queryInterface.bulkInsert('airports',[
+    await queryInterface.bulkInsert('cities',[
       {
-        name:'Birsa Munda Airport',
-        cityId:2,
+        name:'New Delhi',
+        id:1,
         createdAt:new Date(),
         updatedAt:new Date()
       },
       {
-        name:'Indra Gandhi International Airport',
-        cityId:1,
+        name:'Ranchi',
+        id:2,
         createdAt:new Date(),
         updatedAt:new Date()
       },
+      
   ],{})
   },
+
 
   async down (queryInterface, Sequelize) {
     /**
