@@ -50,7 +50,7 @@ module.exports = (sequelize, DataTypes) => {
     }
   }, {
     sequelize,
-    modelName: 'flights',
+    modelName: 'Flights',
   });
   return flights;
 };
