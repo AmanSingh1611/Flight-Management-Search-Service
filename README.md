@@ -4,8 +4,6 @@ This a backend system that supports different features for an airline company. O
 # High Level Design 
 ![Flight Management System HLD (1)](https://github.com/AmanSingh1611/Flight-Management-Search-Service/assets/78806052/9e89cbe2-ff12-480f-ada0-bd705202b5a4)
 
-## Links for Services
-Auth Service: https://github.com/AmanSingh1611/Flight-Management-Auth-Service
 ## Project Setup
 - clone the project on your local
 - Execute `npm install` on the same path as of your root directory of teh downloaded project
