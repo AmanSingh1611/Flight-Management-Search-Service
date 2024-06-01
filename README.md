@@ -2,8 +2,7 @@
 This a backend system that supports different features for an airline company. Our end user is going to be someone who wants to book flights and query about flights this project features a robust system to help them give the best possible experience. I have prepared the whole backend keeping the code base as maintainable as possible.
 
 # High Level Design 
-
-![Flight Management System HLD (1)](https://github.com/AmanSingh1611/Airline-Backend-System/assets/78806052/f4b1433f-054f-410e-b8ec-c418d0bb4a24)
+![Flight Management System HLD (1)](https://github.com/AmanSingh1611/Flight-Management-Search-Service/assets/78806052/9e89cbe2-ff12-480f-ada0-bd705202b5a4)
 
 ## Links for Services
 Auth Service: https://github.com/AmanSingh1611/Flight-Management-Auth-Service
