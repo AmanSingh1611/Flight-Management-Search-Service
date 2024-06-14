@@ -4,6 +4,22 @@ This a backend system that supports different features for an airline company. O
 # High Level Design 
 ![Flight Management System HLD (1)](https://github.com/AmanSingh1611/Flight-Management-Search-Service/assets/78806052/9e89cbe2-ff12-480f-ada0-bd705202b5a4)
 
+
+# Microservices Architecture
+
+The project adheres to a microservices architecture, where independent services collaborate to deliver the complete flight management experience. Here's a breakdown of the service interactions:
+
+- Flight Management Backend API Gateway: This service manages flight data and interacts with other services as needed.
+- Authentication Service: Handles user login/logout and access control for secure flight data access (link provided below).
+- Booking Service: Manages flight reservations and passenger information (link provided below).
+- Notification Service: Sends updates and alerts related to flights (link provided below).
+
+# Links for other microservices 
+
+Authentication Service: https://github.com/AmanSingh1611/Flight-Management-Auth-Service
+Booking Service: https://github.com/AmanSingh1611/Flight-Management-Air-Ticket-Booking-service
+Notification Service: https://github.com/AmanSingh1611/Flight-Management-Reminder-Service
+
 ## Project Setup
 - clone the project on your local
 - Execute `npm install` on the same path as of your root directory of teh downloaded project
