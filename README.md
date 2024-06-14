@@ -16,9 +16,9 @@ The project adheres to a microservices architecture, where independent services 
 
 # Links for other microservices 
 
-Authentication Service: https://github.com/AmanSingh1611/Flight-Management-Auth-Service
-Booking Service: https://github.com/AmanSingh1611/Flight-Management-Air-Ticket-Booking-service
-Notification Service: https://github.com/AmanSingh1611/Flight-Management-Reminder-Service
+- Authentication Service: https://github.com/AmanSingh1611/Flight-Management-Auth-Service
+- Booking Service: https://github.com/AmanSingh1611/Flight-Management-Air-Ticket-Booking-service
+- Notification Service: https://github.com/AmanSingh1611/Flight-Management-Reminder-Service
 
 ## Project Setup
 - clone the project on your local
